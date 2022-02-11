@@ -1,0 +1,15 @@
+server:
+  port: 8181
+
+spring:
+  cloud:
+    config:
+      enabled: false      
+
+logging:
+  level:
+    web: DEBUG
+    '[org.h2.jdbc]': INFO
+    '[org.hibernate]': DEBUG    
+    root: INFO
+    '[pt.dnxt]': DEBUG
