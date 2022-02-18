@@ -4,7 +4,7 @@ spring:
   #config:
   #  import: optional:configserver:http://localhost:8888/
   cloud:
-    config:
+    config:      
       fail-fast: true
       retry:
         initial-interval: 3000
@@ -51,4 +51,4 @@ logging:
     '[org.h2.jdbc]': INFO
     '[org.hibernate]': INFO    
     root: INFO
-    '[pt.dnxt]': INFO
+    '[pt.dnxt]': DEBUG

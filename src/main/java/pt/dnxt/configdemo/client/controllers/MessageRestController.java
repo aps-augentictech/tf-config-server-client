@@ -1,4 +1,4 @@
-package pt.dnxt.configclient.controllers;
+package pt.dnxt.configdemo.client.controllers;
 
 import java.util.Map;
 
@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
-@RefreshScope
 @RestController
+@Setter
 @Slf4j
+@RefreshScope
 @EnableConfigurationProperties
 @ConfigurationProperties
-@Setter
 public class MessageRestController {
 
     @Value("${message:Hello default}")
