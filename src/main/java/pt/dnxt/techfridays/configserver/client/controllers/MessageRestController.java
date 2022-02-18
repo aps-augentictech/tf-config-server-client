@@ -1,4 +1,4 @@
-package pt.dnxt.configdemo.client.controllers;
+package pt.dnxt.techfridays.configserver.client.controllers;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package pt.dnxt.configdemo.client;
+package pt.dnxt.techfridays.configserver.client;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
