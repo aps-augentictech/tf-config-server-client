@@ -8,8 +8,8 @@ spring:
 
 logging:
   level:
-    web: DEBUG
+    web: INFO
     '[org.h2.jdbc]': INFO
-    '[org.hibernate]': DEBUG    
+    '[org.hibernate]': INFO    
     root: INFO
     '[pt.dnxt]': DEBUG

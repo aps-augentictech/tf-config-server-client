@@ -14,20 +14,37 @@ spring:
       uri: http://config-server:8888
       name: ${spring.application.name}
 
+tomcat:
+    mbeanregistry:
+      enabled: true
+      
 management:
   endpoint:
     health:
+      show-details: always
       enabled: true
       probes:
-        enabled: false
+        enabled: true
+    info:
+      enabled: true
     metrics:
       enabled: true
-    configprops:
+    prometheus:
+      enabled: true 
+    mappings:
+      enabled: true
+    loggers:
+      enabled: true
+    sessions:
+      enabled: true
+    refresh:
       enabled: true
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: 
+          - '*'
+          - refresh
 logging:
   level:
     web: INFO
