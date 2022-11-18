@@ -51,4 +51,4 @@ logging:
     '[org.h2.jdbc]': INFO
     '[org.hibernate]': INFO    
     root: INFO
-    '[pt.dnxt]': DEBUG
+    '[pt.dnxt]': INFO
